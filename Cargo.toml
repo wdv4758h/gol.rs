@@ -1,0 +1,20 @@
+[package]
+
+name = "gol.rs"
+version = "0.0.1"
+authors = ["Chiu-Hsiang Hsu <wdv4758h@gmail.com>"]
+keywords = ["game"]
+documentation = ""
+license = "GPLv3"
+readme = "README.rst"
+repository = "https://github.com/wdv4758h/gol.rs.git"
+
+
+[[bin]]
+
+name = "gol"
+
+[profile.release]
+
+opt-level = 3
+lto = true
